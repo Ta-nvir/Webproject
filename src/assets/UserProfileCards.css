@@ -1,0 +1,29 @@
+/* Card fade-in effect */
+.animate-card {
+  animation: fadeInUp 0.7s ease both;
+}
+
+/* Profile image styling */
+.profile-img {
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 2px solid #dee2e6;
+}
+
+/* Button hover */
+.btn-primary:hover {
+  background-color: #004a99;
+  transition: background-color 0.3s ease;
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -1,0 +1,70 @@
+/* UserProfileCard.module.css */
+
+.pageContainer {
+  background-color: #f9f9fa;
+}
+
+.padding {
+  padding: 3rem !important;
+}
+
+.userCardFull {
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  border: none;
+  margin-bottom: 30px;
+}
+
+.userProfile {
+  border-radius: 5px 0 0 5px;
+  background: linear-gradient(to right, #001570, #7487f8);
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+
+.imgRadius {
+  border-radius: 5px;
+  width: 100%;
+  height: 200px;
+}
+
+.cardBlock {
+  padding: 1.25rem;
+}
+
+.bBottom {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.pb5 {
+  padding-bottom: 5px;
+}
+
+.textMuted {
+  color: #919aa3 !important;
+}
+
+.socialLink {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}

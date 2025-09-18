@@ -1,0 +1,155 @@
+.registerContainer {
+ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.registerForm {
+  background: white;
+  border-radius: 16px;
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.formHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.formHeader h2 {
+  color: #2d3748;
+  font-size: 1.8rem;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.formHeader p {
+  color: #718096;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.headerIcon {
+  font-size: 3rem;
+  color: #4fd1c5;
+}
+
+.nameFields {
+  display: flex;
+  gap: 1rem;
+}
+
+.nameFields .inputGroup {
+  flex: 1;
+}
+
+.inputGroup {
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+.inputGroup label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.inputIcon {
+  margin-right: 8px;
+  color: #a0aec0;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: #f8fafc;
+}
+
+.inputGroup input:focus {
+  outline: none;
+  border-color: #4fd1c5;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(79, 209, 197, 0.2);
+}
+
+.errorInput {
+  border-color: #fc8181 !important;
+  background: #fff5f5 !important;
+}
+
+.errorText {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: #e53e3e;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(to right, #4fd1c5, #38b2ac);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 0.5rem;
+}
+
+.submitButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.submitButton:disabled {
+  background: #a0aec0;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: white;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loginLink {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #718096;
+}
+
+.link {
+  color: #4fd1c5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #38b2ac;
+}
